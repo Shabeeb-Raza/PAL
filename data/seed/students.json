@@ -1,0 +1,93 @@
+[
+  {
+    "studentId": "CS-2021-001",
+    "name": "Ahmed Khan",
+    "program": "BS Computer Science",
+    "admissionSemester": "Fall 2021",
+    "currentSemester": 5,
+    "cgpa": 2.8,
+    "semesterGPAs": [
+      { "semester": 1, "gpa": 2.5, "creditsAttempted": 16, "creditsCompleted": 16 },
+      { "semester": 2, "gpa": 2.7, "creditsAttempted": 18, "creditsCompleted": 18 },
+      { "semester": 3, "gpa": 2.9, "creditsAttempted": 17, "creditsCompleted": 17 },
+      { "semester": 4, "gpa": 3.0, "creditsAttempted": 18, "creditsCompleted": 18 }
+    ],
+    "courses": [
+      { "courseCode": "CSC101", "courseName": "Intro to CS", "creditHours": 3, "componentType": "theory", "status": "passed", "grade": "B+", "semester": 1 },
+      { "courseCode": "CSC101L", "courseName": "Intro to CS Lab", "creditHours": 1, "componentType": "lab", "status": "passed", "grade": "A", "semester": 1 },
+      { "courseCode": "MAT101", "courseName": "Calculus I", "creditHours": 3, "componentType": "theory", "status": "passed", "grade": "B", "semester": 1 },
+      { "courseCode": "CSC102", "courseName": "Programming Fundamentals", "creditHours": 3, "componentType": "theory", "status": "passed", "grade": "B+", "semester": 2 },
+      { "courseCode": "CSC102L", "courseName": "Programming Lab", "creditHours": 1, "componentType": "lab", "status": "passed", "grade": "A", "semester": 2 },
+      { "courseCode": "MAT102", "courseName": "Calculus II", "creditHours": 3, "componentType": "theory", "status": "passed", "grade": "B", "semester": 2 },
+      { "courseCode": "CSC201", "courseName": "Data Structures", "creditHours": 3, "componentType": "theory", "status": "passed", "grade": "B+", "semester": 3 },
+      { "courseCode": "CSC201L", "courseName": "Data Structures Lab", "creditHours": 1, "componentType": "lab", "status": "passed", "grade": "A", "semester": 3 },
+      { "courseCode": "CSC202", "courseName": "Object Oriented Programming", "creditHours": 3, "componentType": "theory", "status": "passed", "grade": "A-", "semester": 4 },
+      { "courseCode": "CSC202L", "courseName": "OOP Lab", "creditHours": 1, "componentType": "lab", "status": "passed", "grade": "A", "semester": 4 }
+    ],
+    "attendancePercentage": 82,
+    "completedCredits": 69,
+    "totalCreditsRequired": 130,
+    "failedCourses": 0,
+    "withdrawnCourses": 0,
+    "academicWarnings": []
+  },
+  {
+    "studentId": "CS-2021-002",
+    "name": "Sara Malik",
+    "program": "BS Computer Science",
+    "admissionSemester": "Fall 2021",
+    "currentSemester": 5,
+    "cgpa": 1.7,
+    "semesterGPAs": [
+      { "semester": 1, "gpa": 2.0, "creditsAttempted": 16, "creditsCompleted": 13 },
+      { "semester": 2, "gpa": 1.8, "creditsAttempted": 18, "creditsCompleted": 12 },
+      { "semester": 3, "gpa": 1.5, "creditsAttempted": 17, "creditsCompleted": 10 },
+      { "semester": 4, "gpa": 1.6, "creditsAttempted": 18, "creditsCompleted": 11 }
+    ],
+    "courses": [
+      { "courseCode": "CSC101", "courseName": "Intro to CS", "creditHours": 3, "componentType": "theory", "status": "passed", "grade": "C+", "semester": 1 },
+      { "courseCode": "CSC101L", "courseName": "Intro to CS Lab", "creditHours": 1, "componentType": "lab", "status": "passed", "grade": "B", "semester": 1 },
+      { "courseCode": "MAT101", "courseName": "Calculus I", "creditHours": 3, "componentType": "theory", "status": "failed", "grade": "D", "semester": 1 },
+      { "courseCode": "CSC102", "courseName": "Programming Fundamentals", "creditHours": 3, "componentType": "theory", "status": "failed", "grade": "F", "semester": 2 },
+      { "courseCode": "CSC102L", "courseName": "Programming Lab", "creditHours": 1, "componentType": "lab", "status": "failed", "grade": "F", "semester": 2 },
+      { "courseCode": "MAT102", "courseName": "Calculus II", "creditHours": 3, "componentType": "theory", "status": "withdrawn", "grade": "W", "semester": 2 },
+      { "courseCode": "CSC201", "courseName": "Data Structures", "creditHours": 3, "componentType": "theory", "status": "failed", "grade": "F", "semester": 3 },
+      { "courseCode": "CSC201L", "courseName": "Data Structures Lab", "creditHours": 1, "componentType": "lab", "status": "withdrawn", "grade": "W", "semester": 3 }
+    ],
+    "attendancePercentage": 55,
+    "completedCredits": 46,
+    "totalCreditsRequired": 130,
+    "failedCourses": 4,
+    "withdrawnCourses": 2,
+    "academicWarnings": ["Academic Probation - Semester 3"]
+  },
+  {
+    "studentId": "CS-2022-003",
+    "name": "Ali Raza",
+    "program": "BS Computer Science",
+    "admissionSemester": "Spring 2022",
+    "currentSemester": 4,
+    "cgpa": 2.3,
+    "semesterGPAs": [
+      { "semester": 1, "gpa": 2.2, "creditsAttempted": 15, "creditsCompleted": 15 },
+      { "semester": 2, "gpa": 2.4, "creditsAttempted": 16, "creditsCompleted": 16 },
+      { "semester": 3, "gpa": 2.3, "creditsAttempted": 17, "creditsCompleted": 14 }
+    ],
+    "courses": [
+      { "courseCode": "CSC101", "courseName": "Intro to CS", "creditHours": 3, "componentType": "theory", "status": "passed", "grade": "C+", "semester": 1 },
+      { "courseCode": "CSC101L", "courseName": "Intro to CS Lab", "creditHours": 1, "componentType": "lab", "status": "passed", "grade": "B-", "semester": 1 },
+      { "courseCode": "MAT101", "courseName": "Calculus I", "creditHours": 3, "componentType": "theory", "status": "passed", "grade": "C", "semester": 1 },
+      { "courseCode": "CSC102", "courseName": "Programming Fundamentals", "creditHours": 3, "componentType": "theory", "status": "passed", "grade": "B-", "semester": 2 },
+      { "courseCode": "CSC102L", "courseName": "Programming Lab", "creditHours": 1, "componentType": "lab", "status": "passed", "grade": "B", "semester": 2 },
+      { "courseCode": "MAT102", "courseName": "Calculus II", "creditHours": 3, "componentType": "theory", "status": "passed", "grade": "C", "semester": 2 },
+      { "courseCode": "CSC201", "courseName": "Data Structures", "creditHours": 3, "componentType": "theory", "status": "passed", "grade": "C+", "semester": 3 },
+      { "courseCode": "CSC201L", "courseName": "Data Structures Lab", "creditHours": 1, "componentType": "lab", "status": "withdrawn", "grade": "W", "semester": 3 }
+    ],
+    "attendancePercentage": 68,
+    "completedCredits": 45,
+    "totalCreditsRequired": 130,
+    "failedCourses": 1,
+    "withdrawnCourses": 1,
+    "academicWarnings": []
+  }
+]

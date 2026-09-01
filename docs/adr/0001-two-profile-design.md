@@ -1,0 +1,3 @@
+# Two-Profile Design: Raw vs Enriched
+
+The system maintains two separate representations of student data: `RawStudentProfile` (direct MySQL ingestion) and `EnrichedStudentProfile` (raw + computed fields). This separation exists because the raw data changes on a daily cron schedule, but enrichment (rule evaluation, ML prediction) is computationally expensive and should not re-run on every raw data update. The enrichment layer can be triggered independently, cached, and debugged separately. When a faculty member views a student, they see the enriched version. When the ingestion pipeline runs, it only updates the raw version. This avoids re-computing rules and ML predictions on every data sync.
