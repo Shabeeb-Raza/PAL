@@ -1,5 +1,8 @@
-import { redirect } from "next/navigation";
-
 export default function Home() {
-  redirect("/dashboard");
+  return (
+    <div>
+      <h1>PAL Portal</h1>
+      <a href="/dashboard">Go to Dashboard</a>
+    </div>
+  );
 }
