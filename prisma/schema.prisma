@@ -85,6 +85,22 @@ model RiskPrediction {
   student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
 }
 
+model Policy {
+  id          String   @id @default(cuid())
+  name        String
+  category    String   // graduation, prerequisite, attendance, academic_standing, course_load, failed_courses
+  type        String   // min_cgpa, min_credits, max_credits, prerequisite, attendance_pct, max_failed, etc.
+  params      Json     // Flexible params: { value: 2.0 }, { course: "CSC101", requires: "MAT101" }, etc.
+  severity    String   @default("fail") // fail, warning, block, notify
+  enabled     Boolean  @default(true)
+  priority    Int      @default(0) // Higher = evaluated first
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([category])
+  @@index([enabled])
+}
+
 model User {
   id        String   @id @default(cuid())
   email     String   @unique

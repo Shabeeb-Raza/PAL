@@ -54,6 +54,12 @@ venv/
 *.swp
 *.swo
 
+# agent config
+.agents/
+.claude/
+.windsurf/
+skills-lock.json
+
 # OS
 Thumbs.db
 

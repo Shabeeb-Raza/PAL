@@ -1,0 +1,72 @@
+[
+  {
+    "id": "policy_cgpa_graduation",
+    "name": "Minimum CGPA for Graduation",
+    "category": "graduation",
+    "type": "min_cgpa",
+    "params": { "value": 2.0 },
+    "severity": "fail",
+    "enabled": true,
+    "priority": 10
+  },
+  {
+    "id": "policy_credits_graduation",
+    "name": "Minimum Credits for Graduation",
+    "category": "graduation",
+    "type": "min_credits",
+    "params": { "value": 130 },
+    "severity": "fail",
+    "enabled": true,
+    "priority": 10
+  },
+  {
+    "id": "policy_fyp_required",
+    "name": "Final Year Project Required",
+    "category": "graduation",
+    "type": "fyp_required",
+    "params": { "required": true },
+    "severity": "fail",
+    "enabled": true,
+    "priority": 10
+  },
+  {
+    "id": "policy_attendance_warning",
+    "name": "Minimum Attendance Warning",
+    "category": "attendance",
+    "type": "attendance_pct",
+    "params": { "value": 75 },
+    "severity": "warning",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "policy_attendance_block",
+    "name": "Minimum Attendance for Final Exam",
+    "category": "attendance",
+    "type": "attendance_pct",
+    "params": { "value": 60 },
+    "severity": "block",
+    "enabled": true,
+    "priority": 8
+  },
+  {
+    "id": "policy_max_failed_warning",
+    "name": "Failed Course Warning",
+    "category": "failed_courses",
+    "type": "max_failed",
+    "params": { "value": 2 },
+    "severity": "warning",
+    "enabled": true,
+    "priority": 5
+  },
+  {
+    "id": "policy_max_failed_probation",
+    "name": "Academic Probation",
+    "category": "academic_standing",
+    "type": "max_failed",
+    "params": { "value": 3 },
+    "severity": "fail",
+    "enabled": true,
+    "priority": 7
+  }
+]
