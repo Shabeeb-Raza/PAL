@@ -1,3 +1,7 @@
+"use client";
+
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
 import { Sidebar } from "@/components/sidebar";
 
 export default function DashboardLayout({
@@ -5,6 +9,17 @@ export default function DashboardLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const router = useRouter();
+
+  useEffect(() => {
+    const auth = document.cookie
+      .split("; ")
+      .find((c) => c.startsWith("pal_auth="));
+    if (!auth) {
+      router.push("/login");
+    }
+  }, [router]);
+
   return (
     <div className="flex h-screen">
       <Sidebar />

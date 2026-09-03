@@ -56,3 +56,5 @@ venv/
 
 # OS
 Thumbs.db
+
+/src/generated/prisma

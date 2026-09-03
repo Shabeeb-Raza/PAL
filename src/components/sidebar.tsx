@@ -41,9 +41,15 @@ export function Sidebar() {
         })}
       </nav>
       <div className="border-t p-4">
-        <div className="text-xs text-muted-foreground">
-          CS Faculty Advisory
-        </div>
+        <button
+          onClick={() => {
+            document.cookie = "pal_auth=; path=/; max-age=0";
+            window.location.href = "/login";
+          }}
+          className="w-full rounded-md border px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-muted"
+        >
+          Sign Out
+        </button>
       </div>
     </div>
   );
