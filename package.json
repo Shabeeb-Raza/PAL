@@ -15,7 +15,7 @@
     "@prisma/adapter-pg": "^7.10.0",
     "@prisma/client": "^7.10.0",
     "caniuse-lite": "^1.0.30001810",
-    "dotenv": "^17.4.2",
+    "dotenv": "^18.0.4",
     "next": "14.2.35",
     "pg": "^8.23.0",
     "prisma": "^7.10.0",
